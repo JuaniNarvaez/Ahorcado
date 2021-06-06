@@ -1,0 +1,17 @@
+
+Jugadores: 2 (adivinador y programa)
+Objetivo: Descubrir la palabra o frase secreta.
+
+Preparacion:
+- Al inicio el moderador pensara en una palabra o frase y dibujara en pantalla una linea por cada letra y dara una pista al jugador (adivinador).
+
+Turno:
+- En su turno el jugador puede: Pedir una letra.
+- Pedir una letra: El programa revisa si la letra pedida se encuentra en la palabra secreta.
+-- Si la letra esta, entonces el programa la anota sobre la linea que ocupa su lugar en la palabra secreta.
+-- Si la letra no esta, entonces el programa anotara la letra sobre la horca y dibujara una parte de la figura.
+- Figura: La figura se dibuja en 6 partes (cabeza, tronco y extremidades), por lo que el adivinador tiene 6 posibilidades de fallar.
+
+Fin de la partida:
+- GANA el adivinador si descubre la palabra o frase secreta.
+- PIERDE el avidinador si se dibuja la figura completa en la horca.
